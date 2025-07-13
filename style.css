@@ -49,10 +49,33 @@ section.first-sec h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
 }
+section.first-sec button{
+    margin-top: 20px;
+    background:none;
+    width: 130px;
+    height: 40px;
+}
 section .titulo{
     padding-left: 10px;
 }
 section.first-sec p{
     padding-top: 20px;
+    font-family: sans-serif;
+}
+section.secound-sec{
+        display: flex;
+        flex-direction: 
+        row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    height: 60vh;
+}
+section.secound-sec h1{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+section.secound-sec p{
+        padding-top: 20px;
     font-family: sans-serif;
 }
